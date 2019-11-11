@@ -1,0 +1,146 @@
+
+    /* Esercizio 1 */
+
+.ex-1-square{
+    transition: background 2s ;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+    /* Esercizio 2 */
+
+.ex-2-square{
+    transition: width 2s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+    /* Esercizio 3 */
+
+.ex-3-square{
+    transition: border-radius 2s;
+}
+
+.ex-3-square:hover{
+    border-radius: 100px;
+}
+
+    /* Esercizio 4 */
+
+.ex-4-square{
+    transition: background 2s;
+}
+
+.ex-4-square:hover{
+    background-color: #F5F5F5;
+}
+
+    /* Esercizio 5 */
+
+.ex-5-square{
+    transition: all 2s;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.ex-5-square:active{
+    width: 30px;
+    height: 30px;
+    margin: 40px;
+}
+
+    /* Esercizio 6 */
+
+
+ .ex-6-img:hover{
+    filter: grayscale(1);
+ }
+
+    /* Esercizio 7 */
+
+
+.ex-7-img{
+    transition: filter 2s;
+}
+
+.ex-7-img:hover{
+    filter: sepia(0.2) grayscale(1);
+}
+
+    /* Esercizio 8 */
+
+
+.ex-8-img{
+    transition: all 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: grayscale(0.3) saturate(0.4);
+}
+
+    /* Esercizio 9 */
+
+.ex-9-img{
+    transition: all 2s;
+}
+
+.ex-9-img:hover{
+    border-radius: 20px;
+    filter: grayscale(0.3) saturate(0.4);
+    margin: 25px 50px;
+    width: 600px;
+}
+
+    /* Esercizio 10 */
+
+.ex-10-icon{
+    animation-name: you-spin-me-round;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes you-spin-me-round {
+    100% {transform: rotateZ(360deg);}
+}
+
+
+    /* Esercizio 11 */
+
+.ex-11-icon:hover{
+    animation-name: you-spin-me-half;
+    animation-duration: 4s;
+}
+
+@keyframes you-spin-me-half {
+    75% {transform: rotateZ(300deg);}
+    100% {transform: rotateZ(0);}
+}
+
+    /* Esercizio 12 */
+
+.ex-12-top-white:hover{
+    animation-name: left-move;
+    animation-duration: 3s
+}
+
+.ex-12-bottom-white:hover{
+    animation-name: right-move;
+    animation-duration: 3s
+}
+
+@keyframes left-move {
+    25% {left: 0;}
+}
+
+@keyframes right-move {
+    25% {right: 0;}
+}
